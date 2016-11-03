@@ -33,7 +33,7 @@ class Car(object):
     def drive(self, speed):
         '''Check the type of car and returns its speed'''
         if self.car_type is 'trailer':
-            self.speed = speed * 11
+            self.speed = 77
         else:
             self.speed = 10 ** speed
         return self
